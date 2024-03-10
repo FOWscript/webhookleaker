@@ -45,8 +45,6 @@ def handle_message(message):
                 message_content = attachment.get('url')
         send(message_content)
         history.add(id)
-    else:
-        print("I've alr sent it")
 
     # Function to get messages from the source channel
 def get_messages():
